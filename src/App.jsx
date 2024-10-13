@@ -9,7 +9,7 @@ import {
 } from "@mui/material";
 import io from "socket.io-client";
 
-const socket = io("https://ws-tan.vercel.app"); // Replace with your WebSocket server URL
+const socket = io("https://e-shop-ws.onrender.com"); // Replace with your WebSocket server URL
 
 const App = () => {
   const [assignedClient, setAssignedClient] = useState(null); // Store assigned client ID
